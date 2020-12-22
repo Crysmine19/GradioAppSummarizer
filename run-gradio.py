@@ -13,6 +13,6 @@ output_text = gr.outputs.Textbox()
 iface = gr.Interface(
   fn=summarize_text, 
   inputs= inputs, 
-  outputs= output_text)
+  outputs= output_text, title='Bert Extrative Summarizer', analytics_enabled=False)
 
 iface.launch()
