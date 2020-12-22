@@ -1,8 +1,7 @@
-dependencies:
-    - pip
-    - pip:
-      - torch==1.6.0+cpu
-      - torchvision==0.7.0+cpu
-      - bert-extractive-summarizer==0.4.2
-      - summarizer
-      - gradio
+pip
+   - pip:
+     - torch==1.6.0+cpu
+     - torchvision==0.7.0+cpu
+     - bert-extractive-summarizer==0.4.2
+     - summarizer
+     - gradio
