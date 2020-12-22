@@ -1,4 +1,4 @@
-torch==1.6.0+cpu
+pytorch==1.6.0+cpu
 torchvision==0.7.0+cpu
 gradio
 bert-extractive-summarizer==0.4.2
